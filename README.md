@@ -28,29 +28,29 @@ Scikit-learn (Sadece veri bölme ve performans metrikleri için)
 ## 📊 Veri Seti: Cleveland Heart Disease
 Veri seti, kalp hastalığı teşhisi için 14 temel klinik özellik içerir:
 
-age, sex, cp (göğüs ağrısı), trestbps (kan basıncı), chol (kolesterol), fbs, restecg, thalach, exang, oldpeak, slope, ca, thal.
+| age |, sex, cp (göğüs ağrısı), trestbps (kan basıncı), chol (kolesterol), fbs, restecg, thalach, exang, oldpeak, slope, ca, thal. |
 
 Hedef (Target): 0 (Normal) ve 1 (Hastalık Var) olarak ikili sınıflandırmaya dönüştürülmüştür.
 
 ## 📂 Proje Yapısı ve Akışı
 Proje dört ana aşamadan oluşmaktadır:
 
-Veri Yükleme (veri_yukle): processed.cleveland.data dosyası okunur, eksik veriler temizlenir ve hedef değişken binary formata getirilir.
+- Veri Yükleme (veri_yukle): processed.cleveland.data dosyası okunur, eksik veriler temizlenir ve hedef değişken binary formata getirilir.
 
-Veri Analizi (veri_analizi): Boxplot ile aykırı değerler, histogramlar ile veri dağılımı incelenir.
+- Veri Analizi (veri_analizi): Boxplot ile aykırı değerler, histogramlar ile veri dağılımı incelenir.
 
-Ön İşleme (veri_on_isleme): Aykırı değerler veri setinden atılır ve tüm özellikler 0-1 arasına normalize edilir.
+- Ön İşleme (veri_on_isleme): Aykırı değerler veri setinden atılır ve tüm özellikler 0-1 arasına normalize edilir.
 
-Model Eğitimi (model_egitimi): Özel yazılmış Lojistik Regresyon modeli 2000 iterasyon boyunca eğitilir.
+- Model Eğitimi (model_egitimi): Özel yazılmış Lojistik Regresyon modeli 2000 iterasyon boyunca eğitilir.
 
 ## 📉 Model Performansı
 Kodun çıktı olarak ürettiği analizler şunları içerir:
 
-Doğruluk (Accuracy)
+- Doğruluk (Accuracy)
 
-Hassasiyet (Precision) & Duyarlılık (Recall)
+- Hassasiyet (Precision) & Duyarlılık (Recall)
 
-F1 Skoru
+- F1 Skoru
 
 Özellik Önemlilik Sıralaması: Modelin karar verirken hangi klinik bulguya (örn: thal, ca, cp) ne kadar ağırlık verdiği gösterilir.
 
