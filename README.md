@@ -55,13 +55,14 @@ F1 Skoru
 Özellik Önemlilik Sıralaması: Modelin karar verirken hangi klinik bulguya (örn: thal, ca, cp) ne kadar ağırlık verdiği gösterilir.
 
 ## ⚙️ Kurulum
+
 Depoyu klonlayın:
-- git clone https://github.com/eminosman06/KalpHastalikTespit.git
+- git clone "https://github.com/eminosman06/KalpHastalikTespit.git"
 
  
 Gerekli kütüphaneleri yükleyin:
--pip install numpy pandas matplotlib seaborn scikit-learn
+- pip install numpy pandas matplotlib seaborn scikit-learn
 
 
 processed.cleveland.data dosyasının ana dizinde olduğundan emin olun ve kodu çalıştırın:
--python main.py
+- python main.py
