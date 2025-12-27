@@ -29,7 +29,7 @@ Scikit-learn (Sadece veri bölme ve performans metrikleri için)
 Veri seti, kalp hastalığı teşhisi için 14 temel klinik özellik içerir:
 
 | age | sex | cp (göğüs ağrısı) | trestbps (kan basıncı) | thal    | slope | oldpeak |
-|====================================================================================|
+|------------------------------------------------------------------------------------|
 | ca  | fbs | chol (kolesterol) | restecg                | thalach | exang |         |
 
 Hedef (Target): 0 (Normal) ve 1 (Hastalık Var) olarak ikili sınıflandırmaya dönüştürülmüştür.
