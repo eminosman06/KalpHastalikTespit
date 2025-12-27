@@ -57,7 +57,7 @@ Kodun çıktı olarak ürettiği analizler şunları içerir:
 ## ⚙️ Kurulum
 
 Depoyu klonlayın:
-- git clone "https://github.com/eminosman06/KalpHastalikTespit.git"
+- git clone https://github.com/eminosman06/KalpHastalikTespit.git
 
  
 Gerekli kütüphaneleri yükleyin:
